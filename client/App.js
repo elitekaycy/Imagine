@@ -6,7 +6,8 @@ import CentralApp from './components/CentralApp';
 const App = () => {
   return (
     <NavigationContainer>
-      <CentralApp />
+      {/* <CentralApp /> */}
+      <AuthStack />
     </NavigationContainer>
   );
 };

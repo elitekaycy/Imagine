@@ -1,11 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, SafeAreaView} from 'react-native';
 
 const DownloadScreen = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>DownloadScreen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 

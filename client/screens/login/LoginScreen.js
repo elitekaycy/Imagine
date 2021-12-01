@@ -1,5 +1,6 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import {View, Text, TextInput, Pressable, Image, StatusBar} from 'react-native';
+import {View, Text, TextInput, Pressable, Image, StatusBar, SafeAreaView} from 'react-native';
 import styles from './styles';
 import MaterialIcon from 'react-native-vector-icons/MaterialCommunityIcons';
 

@@ -1,11 +1,12 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, SafeAreaView} from 'react-native';
 
 const HomeScreen = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>HomeScreen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 

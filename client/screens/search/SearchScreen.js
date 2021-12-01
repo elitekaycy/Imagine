@@ -1,11 +1,12 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import {View, Text} from 'react-native';
+import {Text, View, SafeAreaView} from 'react-native';
 
 const SearchScreen = () => {
   return (
-    <View>
+    <SafeAreaView>
       <Text>SearchScreen</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
